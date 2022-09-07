@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body .main-container{
+    box-shadow: 2px 2px 40px;
+    width: 300px;
+    margin: 10px;
+}
