@@ -6,8 +6,10 @@ button.addEventListener("click", function ageCal(){
     curYear = document.getElementById("currYear").value
     sum = curYear-bornYear
 
-    if(curYear-bornYear){
+    if(curYear-bornYear ){
         alert(sum +" year old")
+    } else{
+       
     }
    
 })
