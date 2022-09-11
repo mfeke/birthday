@@ -12,3 +12,6 @@ body .main-container{
 input , button{
     border-radius: 5px;
 }
+button:hover{
+    color: white;
+}
