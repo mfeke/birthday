@@ -5,9 +5,16 @@
 }
 
 body .main-container{
-    box-shadow: 2px 2px 40px white;
+    box-shadow: 2px 2px 40px black;
     width: 400px;
     margin: 10px;
+   
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+
 }
 input , button{
     border-radius: 5px;
