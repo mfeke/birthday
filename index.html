@@ -13,17 +13,20 @@
 <body class="container justify-content-center" >
     <section class="container main-container " style="background-color: black; border: 1px solid white; border-radius: 5px; ">
         <h2 style="color: white ;">Age Calculator</h2>
-        <div class="container" >
-            <p></p>
-            <input type="number" id="currYear" placeholder="  Enter The Current Year " style="margin:5px; height:40px; width: 100% ;">
-        </div>
-        <div class="container" >
-            <input type="number" id="bornYear" placeholder="  Enter the Year Which Your Were In " style="margin:5px; height:40px; width: 100% ;">
-        </div>
-        <div class="container" >
-           <button type="button"id="btn" style="margin:5px; height:40px; width: 100% ; background-color: blue; font-weight: 30px;">Submit</button>
-        </div>
-        <div  class="container"type="number" id="res" style="margin-left:5px; height:40px; width: 100% "></div>
+          <div class="container">
+            <input class="form-control m-2 " type="text" id="username"  placeholder="Enter Your Name" aria-label="default input example">
+          </div>
+          <div class="container">
+            <div class="d-flex">
+                <input class="form-control m-2" type="text" id="bornYear" placeholder="Enter Your Current Year" aria-label="default input example">
+                <input class="form-control m-2" type="text" id="currYear" placeholder="Enter The Year Were Born" aria-label="default input example">
+            </div>
+          </div>
+          <button id="btn">
+            Submit 
+          </button>
+
+        <!-- <div  class="container" type="number" id="res" style="margin-left:5px; height:40px; width: 100% "></div> -->
     </section>
     <script src="index.js"></script>
 </body>

@@ -2,14 +2,22 @@ let button = document.getElementById("btn")
 let res = document.getElementById("res")
 
 button.addEventListener("click", function ageCal(){
+    username = document.getElementById("username").value
     bornYear= document.getElementById("bornYear").value
     curYear = document.getElementById("currYear").value
-    sum = curYear-bornYear
+    sum = curYear-bornYear;
+    num = -1;
 
-    if(curYear-bornYear ){
-        alert(sum +" year old")
-    } else{
+    if(sum< num){
+        alert(`hi ${username} your are ${sum} year old`)
        
+        
+    } else
+    {
+        
     }
+
+     
+
    
 })

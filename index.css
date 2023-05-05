@@ -6,7 +6,7 @@
 
 body .main-container{
     box-shadow: 2px 2px 40px black;
-    width: 400px;
+    width: 50%;
     margin: 10px;
    
 }
@@ -16,8 +16,20 @@ body{
     margin-top: 200px;
 
 }
-input , button{
+input{
     border-radius: 5px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left:248px;
+    margin-bottom: 20px;
 }
 button:hover{
     color: white;
